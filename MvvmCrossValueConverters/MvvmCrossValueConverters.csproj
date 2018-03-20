@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Authors>Superplex</Authors>
+    <Description>A collection of MvvmCross value converters.</Description>
+    <PackageId>MvvmCrossValueConverters</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+    <PackageReference Include="MvvmCross" Version="5.6.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ValueConverters\" />
+  </ItemGroup>
+</Project>
